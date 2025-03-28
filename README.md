@@ -61,3 +61,10 @@ Prosjektet skal leveres **innen 12:00 på søndag**. Lag en tag med navnet "innl
 git tag innlevering
 git push --tags
 ```
+# Alzheimer's Arena
+A multiplayer memory game by the Dementia Delinquents™ members Kjetil Berg & Stian Aas Trohaug.
+
+## Idea and imlpementation
+- Hva idéen er og hvordan dere har implementert den
+
+## Screenshots
