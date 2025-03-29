@@ -25,7 +25,7 @@ wss.on('connection', (ws) => {
 	let joined = game.join(id, player);
 	if (!joined) { console.log(`Player ${id} failed to join game and is getting kicked from the server`); ws.close(); return; }
 
-	ws.on('message', message => game.onmessage(id, message.toString()));
+	ws.on('message', message => game.onmessage(id, JSON.parse(message.toString())));
 	ws.on('close', () => { game.leave(id); console.log(`Disconnect from ${id}`); });
 });
 
