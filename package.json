@@ -1,0 +1,22 @@
+{
+  "name": "alzheimers-arena-server",
+  "version": "1.0.0",
+  "description": "Server for the Alzheimer's Arena game from the Echo Webathon March 2025",
+  "main": "server/index.ts",
+  "scripts": {
+    "start": "ts-node server/index.ts"
+  },
+  "keywords": [],
+  "author": "Kjetil Berg, Stian Aas Trohaug",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.14",
+    "@types/ws": "^8.18.0"
+  }
+}
