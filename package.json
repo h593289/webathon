@@ -13,14 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "tsc": "^2.0.4",
-    "typescript": "^5.8.2",
     "uuid": "^11.1.0",
     "ws": "^8.18.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
     "@types/node": "^22.13.14",
-    "@types/ws": "^8.18.0"
+    "@types/ws": "^8.18.0",
+    "typescript": "^5.8.2"
   }
 }
