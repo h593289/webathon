@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alzheimer's Arena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3a0018;
+            color: white;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .spotlight {
+            width: 0;
+            height: 0;
+            border-left: 20vw solid transparent;
+            border-right: 20vw solid transparent;
+            border-bottom: 100vh solid #580019;
+            position: absolute;
+            z-index: -1;
+        }
+        .spotlight-coverup {
+            width: 50vw;
+            height: 100vh;
+            background-color: #3a0018;
+            position: absolute;
+            z-index: -1;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 33%; padding: 20px;" class="flex-center">
+        <h1>Welcome to the Alzheimer's Arena</h1>
+        <p>You've been taken hostage by an AI overlord.</p>
+        <p>Compete in its arena and earn your freedom!</p>
+        <a href="play" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Play Now</a>
+    </div>
+    <div style="width: 33%; padding: 20px; position: relative;" class="flex-center">
+        <div class="spotlight"></div>
+        <div class="spotlight-coverup"></div>
+        <img src="landing_masks.png" alt="Theatre masks" style="width: 75%;">
+</div>
+</body>
+</html>
